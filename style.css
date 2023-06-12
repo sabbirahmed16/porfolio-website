@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "plafair display";
+    font-size: 65px;
+    line-height: 85px;
+    color: var(--heading-text-color);
+    text-align: center;
+}
+
+h2 {
+    font-family: "plafair display";
+    font-size: 38px;
+    line-height: 46px;
+    color: var(--heading-text-color);
+    text-align: center;
+}
+
+h3 {
+    font-family: "plafair display";
+    font-size: 30px;
+    line-height: 39px;
+    color: var(--heading-text-color);
+    text-align: center;
+}
+
+h4 {
+    font-family: "plafair display";
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--heading-text-color);
+    text-align: center; 
+}
+
+p,a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #35373a;
+    text-align: center;
+}
+
+
+
+.small-text {
+    font-family: "Open Sans";
+    font-size: 17px;
+    line-height: 27px;
+    color: #35373a;
+}
+
+li {
+ list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1170px;
+    margin-inline: auto;
+}
+
+:root {
+    --background-color: #FFFFFF;
+    --primary_color: #FEFAFA;
+    --button_color: #CF332B;
+    --heading-text-color: #002d5b;
+
+}
+
+.primary-button {
+    padding: 12px 30px;
+    background-color: #ec5b53;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.primary-button:hover {
+    background-color: #ad3233;
+}
+
+/* navbar  */
+
+nav {
+    background-color: var(--primary_color);
+}
+
+.navbar-container {
+    justify-content: space-between;
+}
+
+.navbar ul {
+   justify-content: space-between; 
+}
+
+.navbar ul li a {
+    padding: 10px 15px;
+}
+
+
+/* hero section  */
+
+header {
+    background-color: var(--primary_color);
+}
+
+.hero-button {
+    margin-top: 80px;
+}
+
+.hero-heading {
+    font-family: "plafair display";
+    font-size: 65px;
+    line-height: 85px;
+    color: var(--heading-text-color);
+    text-align: left;
+}
+
+.heading-text {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.hero-button a{
+    padding: 12px 40px;
+}
+
+/* about section  */
+
+.about-section {
+    padding: 80px 0;
+    gap: 50px;
+}
+
+.about-section p {
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.about-section-left {
+    width: 60vw;
+}
+
+.about-section-right {
+    width: 30vw;
+}
+
+/* .about-section p::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: var(--heading-text-color);
+    top: 0;
+    right: 50;
+} */
+
+.about-me-details {
+    background-color: var(--primary_color);
+}
+
+.about-button {
+    margin-top: 80px;
+}
+
+.about-button a {
+    padding: 12px 40px;
+}
+
+.about-heading {
+    text-align: left;
+}
+
+.about-heading-text {
+    text-align: left;
+}
+
+.about-section-sub {
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.about-section-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+}
+
+.about-section-right.about-image {
+    width: 640px;
+}
+
+/* services  */
+
+.about-section-cards {
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.services .card1 {
+    background-color: white;
+    border-radius: 15px;
+    width: 330px;
+    height: auto;
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.card1:hover {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.20);
+}
+
+.card1 img {
+    width: 68px;
+}
+
+.card1 h4 {
+    margin-top: 20px;
+}
+
+.card1 p {
+    margin-top: 20px;
+}
+
+.card1 .fa-solid {
+    margin-top: 40px;
+    font-size: 30px;
+    color: var(--heading-text-color);
+    transition: 0.15s;
+}
+
+.card1 .fa-solid:hover{
+    color: var(--button_color);
+}
+
+.services {
+    background-color: #FBF3F3;
+    padding-block: 80px;
+}
+
+.services-paragraph {
+    margin-top: 10px;
+}
+
+/* work experience  */
+
+.work-experience-cards-1 {
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.card1 {
+    background-color: white;
+    border-radius: 15px;
+    width: 630px;
+    height: auto;
+    text-align: left;
+    padding: 40px 30px;
+}
+
+.card1:hover {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.20);
+}
+
+.card1 img {
+    width: 68px;
+}
+
+.card1 h4 {
+    margin-top: 20px;
+}
+
+.card1 p {
+    margin-top: 20px;
+}
+
+.card1 .fa-solid {
+    margin-top: 40px;
+    font-size: 30px;
+    color: var(--heading-text-color);
+    transition: 0.15s;
+}
+
+.card1 .fa-solid:hover{
+    color: var(--button_color);
+}
+
+.work-experience {
+    background-color: #FBF3F3;
+    padding-block: 80px;
+}
+
+.work-experience-paragraph {
+    margin-top: 10px;
+}
+
+.work-experience-card-heading {
+    font-size: 19px;
+    color: black;
+    font-family: "open sans";
+    text-align: left;
+}
+
+.work-experience-small-text {
+    text-align: left;
+}
+
+.work-experience-cards-2 {
+    margin-top: 50px;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.skill-name {
+    color: black;
+
+}
+
+.skills {
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.skill-bar {
+    height: 20px;
+    box-sizing: border-box;
+    background-color: var(--button_color);
+}
+
+.skill-per {
+    height: 20px;
+    background-color: var(--heading-text-color);
+    box-sizing: border-box;
+    animation: fillBars 2.5s 1;
+    
+}
+
+@keyframes fillBars{
+    from {
+    width: 0;
+    }
+    
+    to {
+    width: 100%; }
+}
+
+/* portfolio  */
+
+.portfolio {
+    background-color: #FBF3F3;
+}
+
+.portfolio-header {
+    padding-top: 150px;
+    margin-bottom: 80px;
+}
+
+.portfolio-cards {
+    gap: 30px;
+}
+
+.portfolio .fa-solid {
+    color: var(--button_color);
+}
+
+.portfolio-cards .card1 {
+    text-align: center;
+}
+
+.portfolio-cards .card1 img {
+    border-radius: 100px;
+    border: 3px solid var(--button_color);
+}
+
+.portfolio-person-name {
+    font-weight: bold;
+}
+
+.portfolio-small-text {
+    font-size: 17px;
+    line-height: 27px;
+}
+
